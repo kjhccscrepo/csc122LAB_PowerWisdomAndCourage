@@ -1,7 +1,10 @@
-#ifndef TRIANGLE_NUMBER_TRIANGLENUMBERCALCULATOR_HPP
-#define TRIANGLE_NUMBER_TRIANGLENUMBERCALCULATOR_HPP
+#ifndef tri_calc_hpp
+#define tri_calc_hpp
 #include <string>
+
 class TriangleNumberCalculator {
+private:
+    static bool is_n_natural(const int &n);
 public:
     static int value (int n);
     static int subtract(int n, int m);
@@ -10,4 +13,5 @@ public:
     static double divide(int n, int m);
     static std::string sequence(int n);
 };
+
 #endif

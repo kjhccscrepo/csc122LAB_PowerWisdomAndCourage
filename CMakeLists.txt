@@ -18,5 +18,4 @@ add_executable(triangle_number main.cpp
 add_executable(triangle_number_test triangle_number_test.cpp
         classes/TriangleNumberCalculator.cpp)
 
-
 target_link_libraries(triangle_number_test PRIVATE Catch2::Catch2WithMain)
